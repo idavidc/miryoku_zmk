@@ -12,7 +12,7 @@ on:
       shield:
         description: 'shield'
         required: false
-        default: '"corne_left nice_view_adapter nice_view_gem","corne_right nice_view_adapter nice_view_gem"'
+        default: '"corne_left nice_view_adapter nice_view_gem, corne_right nice_view_adapter nice_view_gem"'
       alphas:
         description: 'alphas'
         required: false
