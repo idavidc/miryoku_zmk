@@ -11,6 +11,11 @@ U_MT(LGUI, A),     U_MT(LALT, R),     U_MT(LCTRL, S),    U_MT(LSHFT, T),    &kp 
 U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp D,             &kp V,             &kp K,             &kp H,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
 U_NP,              U_NP,              &kp Z, &kp W , &kp Y , &kp R, &kp N, &kp F,  U_NP,              U_NP
 
+#define MIRYOKU_LAYER_NUM \
+&kp LBKT,          &kp N7,            &kp N8,            &kp N9,            &kp RBKT,          U_NA,              &kp Z,      &kp Z,     &kp Z,       U_BOOT,            \
+&kp SQT,           &kp N4,            &kp N5,            &kp N6,            &kp EQUAL,         U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
+&kp GRAVE,         &kp N1,            &kp N2,            &kp N3,            &kp BSLH,          U_NA,              &kp Z,       &kp Z,       &kp RALT,          U_NA,              \
+U_NP,              U_NP,              &kp DOT,           &kp N0,            &kp MINUS,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 
 // Direct custom layer access
@@ -28,8 +33,10 @@ XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
 
 
 #define MIRYOKU_LAYER_LIST \
-MIRYOKU_X(BASE,   "Base")
+MIRYOKU_X(BASE,   "Base") \
+MIRYOKU_X(NUM,    "Num") 
 
 
 
 #define U_BASE   0
+#define U_NUM    1
