@@ -63,11 +63,11 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 U_NP,              U_NP,              &kp ESC,         U_LT(U_VTWO, V), &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP 
 
 
-#define MIRYOKU_LAYER_VTWO \
-&kp B,             U_NA,              U_NA,              &kp N4,            &kp CAPSLOCK,      U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
-&bt BT_CLR,        &bt BT_SEL 0,      &bt BT_SEL 1,      &bt BT_SEL 2,      &bt BT_SEL 3,      &bt BT_NXT,              U_NA,              U_NA,              U_NA,              U_NA,            \
-U_NA,              U_NA,              U_NA,              &kp Y,             &kp V,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
-U_NP,              U_NP,              U_NA,              &kp LCTRL,         &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP 
+// #define MIRYOKU_LAYER_VTWO \
+// &kp B,             U_NA,              U_NA,              &kp N4,            &kp CAPSLOCK,      U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
+// &bt BT_CLR,        &bt BT_SEL 0,      &bt BT_SEL 1,      &bt BT_SEL 2,      &bt BT_SEL 3,      &bt BT_NXT,              U_NA,              U_NA,              U_NA,              U_NA,            \
+// U_NA,              U_NA,              U_NA,              &kp Y,             &kp V,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
+// U_NP,              U_NP,              U_NA,              &kp LCTRL,         &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP 
 
 
 
@@ -98,11 +98,11 @@ MIRYOKU_X(MEDIA,  "Media") \
 MIRYOKU_X(NUM,    "Num") \
 MIRYOKU_X(SYM,    "Sym") \
 MIRYOKU_X(FUN,    "Fun") \
-MIRYOKU_X(VAL,   "Valo1") \
-MIRYOKU_X(VTWO,   "Valo2")
+MIRYOKU_X(VAL,   "Valo1")
+//MIRYOKU_X(VTWO,   "Valo2")
 
 #define MIRYOKU_LAYERMAPPING_VAL MIRYOKU_MAPPING
-#define MIRYOKU_LAYERMAPPING_VTWO MIRYOKU_MAPPING
+//#define MIRYOKU_LAYERMAPPING_VTWO MIRYOKU_MAPPING
 
 #define U_BASE   0
 #define U_EXTRA  1
@@ -115,4 +115,4 @@ MIRYOKU_X(VTWO,   "Valo2")
 #define U_SYM    8
 #define U_FUN    9
 #define U_VAL    10
-#define U_VTWO   11
+//#define U_VTWO   11
