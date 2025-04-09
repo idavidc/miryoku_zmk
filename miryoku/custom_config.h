@@ -28,7 +28,7 @@ XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
 
 
 #define MIRYOKU_LAYER_LIST \
-MIRYOKU_X(BASE,   "Base") \
+MIRYOKU_X(BASE,   "Base")
 
 
 
