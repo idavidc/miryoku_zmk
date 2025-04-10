@@ -63,7 +63,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 U_NP,              U_NP,              &kp ESC,         U_LT(U_VTOO, V), &kp SPACE,         U_NA,              U_NA,              U_NA,              U_NP,              U_NP 
 
 
-#define MIRYOKU_LAYER_VT00 \
+#define MIRYOKU_LAYER_VTOO \
 &kp B,             U_NA,              U_NA,              &kp N4,            &kp CAPSLOCK,      U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
 &bt BT_CLR,        &bt BT_SEL 0,      &bt BT_SEL 1,      &bt BT_SEL 2,      &bt BT_SEL 3,      &bt BT_NXT,              U_NA,              U_NA,              U_NA,              U_NA,            \
 U_NA,              U_NA,              U_NA,              &kp Y,             &kp V,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,            \
