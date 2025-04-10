@@ -16,7 +16,10 @@ MIRYOKU_X(MOUSE,  "Mouse") \
 MIRYOKU_X(MEDIA,  "Media") \
 MIRYOKU_X(NUM,    "Num") \
 MIRYOKU_X(SYM,    "Sym") \
-MIRYOKU_X(FUN,    "Fun")
+MIRYOKU_X(FUN,    "Fun") \
+MIRYOKU_X(VAL,    "Val1") \
+MIRYOKU_X(VTOO,    "Val2")
+
 
 #define U_BASE   0
 #define U_EXTRA  1
